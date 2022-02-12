@@ -65,6 +65,7 @@ def Data_Tidiness(pdf):
     pdf_encoded = Data_Encoding(pdf, ['opponent_team'])
     tdf_encoded = pd.concat([pdf_encoded['opponent_team'], teams_names], axis=1).drop_duplicates().reset_index().drop('index', axis=1)
     tdf_encoded.columns.values[0] = 'code'
+    tdf_encoded.columns.values[1] = 'team_name'
     tdf_encoded = Data_Sorting(tdf_encoded, ['code']).reset_index().drop('index', axis=1)
     return pdf_encoded, tdf_encoded
 

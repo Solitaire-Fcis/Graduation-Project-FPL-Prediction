@@ -27,6 +27,10 @@ for pdf, tdf in zip([pdf17, pdf18, pdf19, pdf20, pdf21, pdf22], [tdf17, tdf18, t
 pdf = pd.concat([pdf17, pdf18, pdf19, pdf20, pdf21, pdf22])
 pdf_encoded, tdf_encoded =  Data_Tidiness(pdf)
 
+# Exporting Datasets To External CSVs
+#pdf_encoded.to_csv('./PreProcessed_Datasets/Players_Dataset.csv')
+#tdf_encoded.to_csv('./PreProcessed_Datasets/Teams_Dataset.csv')
+
 # Dataset Correlation Determination
 res = pdf['total_points']
 corr = pdf.corr()
