@@ -31,11 +31,25 @@ pdf_encoded, tdf_encoded =  Data_Tidiness(pdf)
 #pdf_encoded.to_csv('./PreProcessed_Datasets/Players_Dataset.csv')
 #tdf_encoded.to_csv('./PreProcessed_Datasets/Teams_Dataset.csv')
 
+players = pd.read_csv('./PreProcessed_Datasets/Players_Dataset.csv')
+
+pdf17, pdf18, pdf19, pdf20, pdf21, pdf22 = Players_Data_Seasons_Splitting(players)
+
+for pdf in [pdf17, pdf18, pdf19, pdf20, pdf21, pdf22]:
+    pdf = Data_Encoding(pdf, ['name'])
+
 # Dataset Correlation Determination
-res = pdf['total_points']
-corr = pdf.corr()
-top = corr.index[abs(corr['total_points']>0.5)]
+corr = pdf17.corr()
+top = corr.index[abs(corr['total_points'] >= 0.5)]
 plt.subplots(figsize=(12,8))
-top_corr = pdf[top].corr()
+top_corr = pdf17[top].corr()
 sns.heatmap(top_corr, annot=True)
 plt.show()
+
+
+
+
+
+#pdf17.set_index(keys=['name'], drop=False, inplace=True)
+#names=pdf17['name'].unique().tolist()
+#AaronCresswell = pdf17.loc[pdf17.name == 'Aaron Cresswell']
