@@ -9,10 +9,10 @@ pd.options.mode.chained_assignment = None
 def Data_Reading(ppath, tpath):
     Players_Data = pd.read_csv(ppath, dtype={"name": str, "position": str, "team_x": str})
     Teams_Data = pd.read_csv(tpath)
-    data_sus = Players_Data['total_points']
-    Players_Data.pop('total_points')
-    Players_Data = Players_Data.drop(['bps', 'team_x', 'kickoff_time'], axis=1)
-    Players_Data['total_points'] = data_sus
+    #data_sus = Players_Data['total_points']
+    #Players_Data.pop('total_points')
+    #Players_Data = Players_Data.drop(['bps', 'team_x', 'kickoff_time'], axis=1)
+    #Players_Data['total_points'] = data_sus
     return Players_Data, Teams_Data
 
 # Dataset Encoding
@@ -68,4 +68,35 @@ def Data_Tidiness(pdf):
     tdf_encoded.columns.values[1] = 'team_name'
     tdf_encoded = Data_Sorting(tdf_encoded, ['code']).reset_index().drop('index', axis=1)
     return pdf_encoded, tdf_encoded
+'''
+def Points_Concat(pdf, pdfNext, index):
+    tot_poin_next = pdfNext['total_points'+str(index)]
+    pdf['total_points'+str(index)] = tot_poin_next
+    print(pdf)
+    return pdf
 
+def ren_pdf(pdf, index):
+    df = pdf['total_points']
+    pdf['total_points'+str(index)] = df
+    pdf.pop('total_points')
+    print(pdf)    
+    return pdf
+'''
+'''
+def rename(pdf17,pdf18,pdf19,pdf20,pdf21):
+    df=pdf17['total_points']
+    pdf17['total_points17']=df
+    pdf17.pop('total_points')
+    df=pdf18['total_points']
+    pdf18['total_points18']=df
+    pdf18.pop('total_points')
+    df=pdf19['total_points']
+    pdf19['total_points19']=df
+    pdf19.pop('total_points')
+    df=pdf20['total_points']
+    pdf20['total_points20']=df
+    pdf20.pop('total_points')
+    df=pdf21['total_points']
+    pdf21['total_points21']=df
+    pdf21.pop('total_points')
+'''
