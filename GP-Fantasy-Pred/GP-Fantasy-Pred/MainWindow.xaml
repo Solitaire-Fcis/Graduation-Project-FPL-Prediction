@@ -5,8 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GP_Fantasy_Pred"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="DarkGray"/>
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="DarkGray"/>
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="RootWindow">
+        <Grid.Background>
+            <ImageBrush ImageSource="E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/FPL-Background-1.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <TextBox HorizontalAlignment="Left" Margin="1132,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.5,0.5"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,653,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click" Height="23"/>
+        <Image HorizontalAlignment="Left" Height="539" Margin="21,85,0,0" VerticalAlignment="Top" Width="406" Source="E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/Football-Ground.jpg" Opacity="0.8" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.209"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.996"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>

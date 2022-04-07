@@ -1,4 +1,0 @@
-recursive-include src/ *
-include Directory.Build.*
-include pythonnet.sln
-global-exclude **/obj/* **/bin/*

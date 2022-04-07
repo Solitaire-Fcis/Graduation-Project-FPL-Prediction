@@ -23,3 +23,27 @@ C:\Users\yeims\source\repos\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-win
 C:\Users\yeims\source\repos\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\ref\GP-Fantasy-Pred.dll
 C:\Users\yeims\source\repos\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.pdb
 C:\Users\yeims\source\repos\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.genruntimeconfig.cache
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\MainWindow.g.cs
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\App.g.cs
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred_MarkupCompile.cache
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred_MarkupCompile.lref
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.dll
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\ref\GP-Fantasy-Pred.dll
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.pdb
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\GP-Fantasy-Pred.exe
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\GP-Fantasy-Pred.deps.json
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\GP-Fantasy-Pred.runtimeconfig.json
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\GP-Fantasy-Pred.runtimeconfig.dev.json
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\GP-Fantasy-Pred.dll
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\ref\GP-Fantasy-Pred.dll
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\GP-Fantasy-Pred.pdb
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\Python.Runtime.dll
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\Python.Runtime.pdb
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\MainWindow.baml
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.g.resources
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.AssemblyInfoInputs.cache
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.AssemblyInfo.cs
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.csproj.CoreCompileInputs.cache
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.csproj.CopyComplete
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.genruntimeconfig.cache
