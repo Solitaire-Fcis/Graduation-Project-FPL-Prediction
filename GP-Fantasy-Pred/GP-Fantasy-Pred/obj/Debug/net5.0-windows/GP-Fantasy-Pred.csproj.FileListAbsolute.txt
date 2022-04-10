@@ -47,3 +47,6 @@ E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fa
 E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.csproj.CoreCompileInputs.cache
 E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.csproj.CopyComplete
 E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.genruntimeconfig.cache
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\Window1.g.cs
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\Window1.baml
+E:\Work\FCIS\4th Year\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\obj\Debug\net5.0-windows\GP-Fantasy-Pred.csprojAssemblyReference.cache
