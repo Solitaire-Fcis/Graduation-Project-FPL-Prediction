@@ -1,0 +1,30 @@
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.deps.json
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.runtimeconfig.json
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.runtimeconfig.dev.json
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Runtime.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Runtime.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.csprojAssemblyReference.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.AssemblyInfoInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.AssemblyInfo.cs
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.csproj.CoreCompileInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.csproj.CopyComplete
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.genruntimeconfig.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.deps.json
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.runtimeconfig.json
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.runtimeconfig.dev.json
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Test.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Runtime.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\bin\Debug\netstandard2.0\Python.Runtime.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.csprojAssemblyReference.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.AssemblyInfoInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.AssemblyInfo.cs
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.csproj.CoreCompileInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.csproj.CopyComplete
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\testing\obj\Debug\netstandard2.0\Python.Test.genruntimeconfig.cache

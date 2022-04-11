@@ -26,29 +26,22 @@ namespace GP_Fantasy_Pred
     /// </summary>
     public partial class Window1 : Window
     {
-        public Window1()
+        public PyObject ScriptReturn, ErrMSE, Predictions;
+        public int Budget;
+        public Window1(PyObject ScriptReturn, PyObject ErrMSE, PyObject Predictions, int Budget)
         {
+            this.Budget = Budget;
+            this.ScriptReturn = ScriptReturn;
             InitializeComponent();
+            Construct_Team();
+            Draw_Players();
         }
-        // Python API for Executing Models and Metrics
-        public void PythonAPI()
-        {
-            Directory.SetCurrentDirectory("E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred");
-            Runtime.PythonDLL = @"C:\Python39\python39.dll";
-            PythonEngine.Initialize();
-            using (Py.GIL())
-            {
-                dynamic os = Py.Import("os");
-                dynamic sys = Py.Import("sys");
-                sys.path.append(os.path.dirname(os.path.expanduser("E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/Script.py")));
-                var fromFile = Py.Import(System.IO.Path.GetFileNameWithoutExtension("E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/Script.py"));
-                PyObject p = fromFile.GetAttr("err");
-                textbox1.Text = p.ToString();
-            }
-            PythonEngine.Shutdown();
-        }
+        
+        // Drawing Players Fit
         public void Draw_Players()
         {
+            // NUMBERS HAVE CHANGED IN ACCORDANCE TO NEW GUI SETTING
+
             // Forward Players at X = -1100, Y = -300
             // Midfielders at X = -1100, Y = 0
             // Defenders at X = -1100, Y = 250
@@ -58,6 +51,7 @@ namespace GP_Fantasy_Pred
             // X2 = 238+25, Y2 = 315
             // Above Measurements are for sure changed for better looks
             Image Player = new Image();
+            // CHANGE HERE ALL PATHES TO MATCH YOUR MACHINE'S PATHES
             Player.Source = new BitmapImage(new Uri("E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/Player.png", UriKind.Absolute));
             Player.Margin = new Thickness(-835, 460, 0, 0);
             Player.Height = 50;
@@ -68,13 +62,21 @@ namespace GP_Fantasy_Pred
         // Protoype of a Button Click's Effect
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            PythonAPI();
-            Draw_Players();
+            
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
+        // Constructing Team Using 0/1 Knapsack Algorithm
+        public void Construct_Team()
+        {
+            // Algorithm Here
+            
+
+        }
+        // Any Utility Functions
+
     }
 }

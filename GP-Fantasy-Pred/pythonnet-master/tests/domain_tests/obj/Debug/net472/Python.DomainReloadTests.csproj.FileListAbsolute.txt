@@ -1,0 +1,24 @@
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.DomainReloadTests.exe.config
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.DomainReloadTests.exe
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.DomainReloadTests.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.Runtime.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.Runtime.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.csprojAssemblyReference.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.AssemblyInfoInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.AssemblyInfo.cs
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.csproj.CoreCompileInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.csproj.CopyComplete
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.exe
+E:\Work\DFIR\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.DomainReloadTests.exe.config
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.DomainReloadTests.exe
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.DomainReloadTests.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.Runtime.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\bin\net472\Python.Runtime.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.csprojAssemblyReference.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.AssemblyInfoInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.AssemblyInfo.cs
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.csproj.CoreCompileInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.csproj.CopyComplete
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.exe
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\tests\domain_tests\obj\Debug\net472\Python.DomainReloadTests.pdb

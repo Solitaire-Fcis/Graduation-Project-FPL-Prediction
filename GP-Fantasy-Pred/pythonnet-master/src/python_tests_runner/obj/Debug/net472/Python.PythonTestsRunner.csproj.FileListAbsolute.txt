@@ -1,0 +1,40 @@
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\NUnit3.TestAdapter.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\NUnit3.TestAdapter.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\nunit.engine.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\nunit.engine.api.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\nunit.engine.core.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.PythonTestsRunner.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.PythonTestsRunner.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\nunit.framework.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.Runtime.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.Test.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.Runtime.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.Test.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.csprojAssemblyReference.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.AssemblyInfoInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.AssemblyInfo.cs
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.csproj.CoreCompileInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.csproj.CopyComplete
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\NUnit3.TestAdapter.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\NUnit3.TestAdapter.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\nunit.engine.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\nunit.engine.api.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\nunit.engine.core.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.PythonTestsRunner.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.PythonTestsRunner.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\nunit.framework.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.Runtime.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.Test.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.Runtime.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\bin\Debug\net472\Python.Test.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.csprojAssemblyReference.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.AssemblyInfoInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.AssemblyInfo.cs
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.csproj.CoreCompileInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.csproj.CopyComplete
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\python_tests_runner\obj\Debug\net472\Python.PythonTestsRunner.pdb

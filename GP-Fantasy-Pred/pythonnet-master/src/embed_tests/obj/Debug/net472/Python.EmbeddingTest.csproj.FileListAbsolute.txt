@@ -1,0 +1,48 @@
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\NUnit3.TestAdapter.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\NUnit3.TestAdapter.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\nunit.engine.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\nunit.engine.api.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\nunit.engine.core.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\testcentric.engine.metadata.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\cast_global_var.py
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\sysargv.py
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\test\one.py
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\test\__init__.py
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\__init__.py
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Python.EmbeddingTest.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Python.EmbeddingTest.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\nunit.framework.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Python.Runtime.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Python.Runtime.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.csprojAssemblyReference.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.AssemblyInfoInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.AssemblyInfo.cs
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.csproj.CoreCompileInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.csproj.CopyComplete
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\NUnit3.TestAdapter.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\NUnit3.TestAdapter.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\nunit.engine.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\nunit.engine.api.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\nunit.engine.core.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\testcentric.engine.metadata.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\cast_global_var.py
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\sysargv.py
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\test\one.py
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\test\__init__.py
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\fixtures\PyImportTest\__init__.py
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Python.EmbeddingTest.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Python.EmbeddingTest.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\nunit.framework.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Python.Runtime.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\bin\Debug\net472\Python.Runtime.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.csprojAssemblyReference.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.AssemblyInfoInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.AssemblyInfo.cs
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.csproj.CoreCompileInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.csproj.CopyComplete
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\embed_tests\obj\Debug\net472\Python.EmbeddingTest.pdb

@@ -25,13 +25,13 @@
             </Style.Resources>
         </Style>
     </Window.Resources>
+    <!--CHANGE HERE ALL PATHES TO MATCH YOUR MACHINE'S PATHES-->
     <Grid x:Name="Sub1Grid">
         <Grid.Background>
-            <ImageBrush ImageSource="E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/FPL-Background-1.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/FPL-Background-4.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
-        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Margin="1132,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" RenderTransformOrigin="0.5,0.5"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,653,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click" Height="23"/>
-        <Image HorizontalAlignment="Left" Height="539" Margin="21,85,0,0" VerticalAlignment="Top" Width="406" Source="E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/Football-Ground.jpg" Opacity="0.8" RenderTransformOrigin="0.5,0.5">
+        <Label Content="FPL Prediction"  FontSize="70" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" Width="480" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="539" Margin="21,129,0,0" VerticalAlignment="Top" Width="378" Source="E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/Football-Ground-Cropped.jpg" Opacity="0.8" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

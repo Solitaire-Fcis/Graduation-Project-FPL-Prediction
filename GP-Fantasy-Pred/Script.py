@@ -72,7 +72,7 @@ X_test=pdf21[features]
 Y_test=pdf21['total_points']
 cls = linear_model.LinearRegression()
 cls.fit(X,Y)
-prediction= cls.predict(X_test)
+prediction = cls.predict(X_test)
 err = metrics.mean_squared_error(np.asarray(Y_test), prediction)
 print('Mean Square Error', err)
 

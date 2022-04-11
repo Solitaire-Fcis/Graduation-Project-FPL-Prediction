@@ -1,0 +1,24 @@
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\nPython.exe.config
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\nPython.exe
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\nPython.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\Python.Runtime.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\Python.Runtime.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.csprojAssemblyReference.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.AssemblyInfoInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.AssemblyInfo.cs
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.csproj.CoreCompileInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.csproj.CopyComplete
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\nPython.exe
+E:\Work\DFIR\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\nPython.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\nPython.exe.config
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\nPython.exe
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\nPython.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\Python.Runtime.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\bin\x64\Debug\net472\Python.Runtime.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.csprojAssemblyReference.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.AssemblyInfoInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.AssemblyInfo.cs
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.csproj.CoreCompileInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\Console.csproj.CopyComplete
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\nPython.exe
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\console\obj\x64\Debug\net472\nPython.pdb
