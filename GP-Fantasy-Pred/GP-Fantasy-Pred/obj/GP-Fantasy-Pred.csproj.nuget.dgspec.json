@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Work\\FCIS\\4th Year\\GP\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\GP-Fantasy-Pred.csproj": {}
+    "E:\\My Study\\Graduation Project\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\GP-Fantasy-Pred.csproj": {}
   },
   "projects": {
-    "E:\\Work\\FCIS\\4th Year\\GP\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\GP-Fantasy-Pred.csproj": {
+    "E:\\My Study\\Graduation Project\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\GP-Fantasy-Pred.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Work\\FCIS\\4th Year\\GP\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\GP-Fantasy-Pred.csproj",
+        "projectUniqueName": "E:\\My Study\\Graduation Project\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\GP-Fantasy-Pred.csproj",
         "projectName": "GP-Fantasy-Pred",
-        "projectPath": "E:\\Work\\FCIS\\4th Year\\GP\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\GP-Fantasy-Pred.csproj",
-        "packagesPath": "C:\\Users\\yeims\\.nuget\\packages\\",
-        "outputPath": "E:\\Work\\FCIS\\4th Year\\GP\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\obj\\",
+        "projectPath": "E:\\My Study\\Graduation Project\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\GP-Fantasy-Pred.csproj",
+        "packagesPath": "C:\\Users\\AnTaR\\.nuget\\packages\\",
+        "outputPath": "E:\\My Study\\Graduation Project\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\GP-Fantasy-Pred\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yeims\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AnTaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = GP_Fantasy_Pred
+build_property.ProjectDir = E:\My Study\Graduation Project\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\

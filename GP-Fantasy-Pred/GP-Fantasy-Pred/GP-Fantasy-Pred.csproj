@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <Reference Include="Python.Runtime">
-      <HintPath>E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\pythonnet\runtime\Python.Runtime.dll</HintPath>
+      <HintPath>C:\Users\AnTaR\Desktop\GP\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\pythonnet-master\pythonnet\runtime\Python.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
 
