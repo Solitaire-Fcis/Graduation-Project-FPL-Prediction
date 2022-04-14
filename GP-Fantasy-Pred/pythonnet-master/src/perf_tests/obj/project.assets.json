@@ -4946,19 +4946,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yeims\\.nuget\\packages\\": {}
+    "C:\\Users\\AnTaR\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "3.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\perf_tests\\Python.PerformanceTests.csproj",
+      "projectUniqueName": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\perf_tests\\Python.PerformanceTests.csproj",
       "projectName": "Python.PerformanceTests",
-      "projectPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\perf_tests\\Python.PerformanceTests.csproj",
-      "packagesPath": "C:\\Users\\yeims\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\perf_tests\\obj\\",
+      "projectPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\perf_tests\\Python.PerformanceTests.csproj",
+      "packagesPath": "C:\\Users\\AnTaR\\.nuget\\packages\\",
+      "outputPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\perf_tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yeims\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AnTaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5025,7 +5025,7 @@
             "version": "[3.12.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

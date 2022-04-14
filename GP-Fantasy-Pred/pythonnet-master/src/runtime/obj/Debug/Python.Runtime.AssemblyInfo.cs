@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Python and CLR (.NET and Mono) cross-platform language interop")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("3.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0.0+91d64396e1bf1c8e154e42f1143e3c084b3759ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Python.Runtime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Python.Runtime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("3.0.0.0")]

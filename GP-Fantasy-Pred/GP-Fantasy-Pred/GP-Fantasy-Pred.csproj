@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="NewFolder\**" />
+    <Page Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Background-Images\Arsenal.png" />
     <None Remove="Background-Images\Bournmouth.png" />
     <None Remove="Background-Images\Btn-Backgorund-1.jpg" />

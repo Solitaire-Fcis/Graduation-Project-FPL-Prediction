@@ -36,14 +36,14 @@ namespace GP_Fantasy_Pred
         {
             Directory.SetCurrentDirectory("../../../");
             //CHANGE HERE PATH OF PYTHON DLL TO MATCH YOUR MACHINE'S PATH
-            Runtime.PythonDLL = @"C:/python39/python39.dll";
+            Runtime.PythonDLL = @"C:/Python310/python310.dll";
             PythonEngine.Initialize();
             using (Py.GIL())
             {
                 dynamic os = Py.Import("os");
                 dynamic sys = Py.Import("sys");
-                sys.path.append(os.path.dirname(os.path.expanduser("Script.py")));
-                var fromFile = Py.Import(System.IO.Path.GetFileNameWithoutExtension("Script.py"));
+                sys.path.append(os.path.dirname(os.path.expanduser("TeamBuilder.py")));
+                var fromFile = Py.Import(System.IO.Path.GetFileNameWithoutExtension("TeamBuilder.py"));
                 this.ScriptReturn = fromFile;
                 this.ErrMSE = fromFile.GetAttr("err");
                 this.Predictions = fromFile.GetAttr("prediction");

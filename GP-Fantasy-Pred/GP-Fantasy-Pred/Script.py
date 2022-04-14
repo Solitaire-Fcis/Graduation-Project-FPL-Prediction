@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn import preprocessing
 from sklearn.preprocessing import LabelEncoder
 from PreProcessing import *
+from TeamBuilder import *
 from sklearn import linear_model, metrics
 
 '''
@@ -75,4 +76,3 @@ cls.fit(X,Y)
 prediction = cls.predict(X_test)
 err = metrics.mean_squared_error(np.asarray(Y_test), prediction)
 print('Mean Square Error', err)
-

@@ -1300,20 +1300,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yeims\\.nuget\\packages\\": {}
+    "C:\\Users\\AnTaR\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "3.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\testing\\Python.Test.csproj",
+      "projectUniqueName": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\testing\\Python.Test.csproj",
       "projectName": "Python.Test",
-      "projectPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\testing\\Python.Test.csproj",
-      "packagesPath": "C:\\Users\\yeims\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\testing\\obj\\",
+      "projectPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\testing\\Python.Test.csproj",
+      "packagesPath": "C:\\Users\\AnTaR\\.nuget\\packages\\",
+      "outputPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\testing\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "C:\\Users\\yeims\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AnTaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1328,16 +1328,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
-              "projectPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj"
+            "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
+              "projectPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj"
             }
           }
         },
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
-              "projectPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj"
+            "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
+              "projectPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj"
             }
           }
         }
@@ -1361,7 +1361,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       },
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
@@ -1399,7 +1399,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\console\\Console.csproj": {}
+    "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\console\\Console.csproj": {}
   },
   "projects": {
-    "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\console\\Console.csproj": {
+    "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\console\\Console.csproj": {
       "version": "3.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\console\\Console.csproj",
+        "projectUniqueName": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\console\\Console.csproj",
         "projectName": "nPython",
-        "projectPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\console\\Console.csproj",
-        "packagesPath": "C:\\Users\\yeims\\.nuget\\packages\\",
-        "outputPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\console\\obj\\",
+        "projectPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\console\\Console.csproj",
+        "packagesPath": "C:\\Users\\AnTaR\\.nuget\\packages\\",
+        "outputPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\console\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Users\\yeims\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AnTaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,16 +30,16 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
-                "projectPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj"
+              "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
+                "projectPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj"
               }
             }
           },
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
-              "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
-                "projectPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj"
+              "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
+                "projectPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj"
               }
             }
           }
@@ -63,7 +63,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         },
         "net472": {
           "targetAlias": "net472",
@@ -91,7 +91,7 @@
               "version": "[0.7.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -100,18 +100,18 @@
         }
       }
     },
-    "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
+    "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj": {
       "version": "3.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj",
+        "projectUniqueName": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj",
         "projectName": "pythonnet",
-        "projectPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj",
-        "packagesPath": "C:\\Users\\yeims\\.nuget\\packages\\",
-        "outputPath": "E:\\Work\\FCIS\\4th Year\\GPFinal\\pythonnet-master\\src\\runtime\\obj\\",
+        "projectPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\Python.Runtime.csproj",
+        "packagesPath": "C:\\Users\\AnTaR\\.nuget\\packages\\",
+        "outputPath": "F:\\MyWorkSpace\\Graduation-Project-FPL-Prediction\\GP-Fantasy-Pred\\pythonnet-master\\src\\runtime\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "C:\\Users\\yeims\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AnTaR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -187,7 +187,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
