@@ -34,16 +34,16 @@ namespace GP_Fantasy_Pred
         // Python API for Executing Models and Metrics
         public void PythonAPI()
         {
-            // CHANGE HERE ALL PATHES TO MATCH YOUR MACHINE'S PATHES
-            Directory.SetCurrentDirectory("E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred");
-            Runtime.PythonDLL = @"C:\Python39\python39.dll";
+            Directory.SetCurrentDirectory("../../../");
+            //CHANGE HERE PATH OF PYTHON DLL TO MATCH YOUR MACHINE'S PATH
+            Runtime.PythonDLL = @"C:/python39/python39.dll";
             PythonEngine.Initialize();
             using (Py.GIL())
             {
                 dynamic os = Py.Import("os");
                 dynamic sys = Py.Import("sys");
-                sys.path.append(os.path.dirname(os.path.expanduser("E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/Script.py")));
-                var fromFile = Py.Import(System.IO.Path.GetFileNameWithoutExtension("E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/Script.py"));
+                sys.path.append(os.path.dirname(os.path.expanduser("Script.py")));
+                var fromFile = Py.Import(System.IO.Path.GetFileNameWithoutExtension("Script.py"));
                 this.ScriptReturn = fromFile;
                 this.ErrMSE = fromFile.GetAttr("err");
                 this.Predictions = fromFile.GetAttr("prediction");
@@ -54,7 +54,7 @@ namespace GP_Fantasy_Pred
         {
             PythonAPI();
             this.Budget = int.Parse(textbox1.Text);
-            Window1 Pred = new Window1(ScriptReturn, Budget);
+            Window1 Pred = new Window1(ScriptReturn,ErrMSE,Predictions, Budget);
             this.Hide();
             Pred.Show();
         }

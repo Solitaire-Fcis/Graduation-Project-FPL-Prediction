@@ -41,7 +41,6 @@ namespace GP_Fantasy_Pred
         public void Draw_Players()
         {
             // NUMBERS HAVE CHANGED IN ACCORDANCE TO NEW GUI SETTING
-
             // Forward Players at X = -1100, Y = -300
             // Midfielders at X = -1100, Y = 0
             // Defenders at X = -1100, Y = 250
@@ -50,12 +49,19 @@ namespace GP_Fantasy_Pred
             // X1 = 25, Y1 = 0
             // X2 = 238+25, Y2 = 315
             // Above Measurements are for sure changed for better looks
+            TextBlock PlayerName = new TextBlock(), Points = new TextBlock(), TeamName = new TextBlock();
+            PlayerName.Background = Brushes.DarkGreen;
+            TeamName.Background = Brushes.Green;
+            Points.Background = Brushes.LightGreen;
+            PlayerName.Foreground = Brushes.White;
+            TeamName.Foreground = Brushes.White;
+            Points.Foreground = Brushes.White;
+
             Image Player = new Image();
-            // CHANGE HERE ALL PATHES TO MATCH YOUR MACHINE'S PATHES
-            Player.Source = new BitmapImage(new Uri("E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/Player.png", UriKind.Absolute));
-            Player.Margin = new Thickness(-835, 460, 0, 0);
-            Player.Height = 50;
-            Player.Width = 50;
+            Player.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
+            Player.Margin = new Thickness(835, 300, 0, 0);
+            Player.Height = 400;
+            Player.Width = 400;
             Sub1Grid.Children.Add(Player);
         }
 

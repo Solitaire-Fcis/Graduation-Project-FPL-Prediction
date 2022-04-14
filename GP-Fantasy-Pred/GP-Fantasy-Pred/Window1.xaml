@@ -28,10 +28,10 @@
     <!--CHANGE HERE ALL PATHES TO MATCH YOUR MACHINE'S PATHES-->
     <Grid x:Name="Sub1Grid">
         <Grid.Background>
-            <ImageBrush ImageSource="E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/FPL-Background-4.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/Background-Images/FPL-Background-4.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Label Content="FPL Prediction"  FontSize="70" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" Width="480" Grid.ColumnSpan="2"/>
-        <Image HorizontalAlignment="Left" Height="539" Margin="21,129,0,0" VerticalAlignment="Top" Width="378" Source="E:/Work/FCIS/4th Year/GP/Graduation-Project-FPL-Prediction/GP-Fantasy-Pred/GP-Fantasy-Pred/Background-Images/Football-Ground-Cropped.jpg" Opacity="0.8" RenderTransformOrigin="0.5,0.5">
+        <Image HorizontalAlignment="Left" Height="539" Margin="21,0,0,0" VerticalAlignment="Center" Width="378" Source="/Background-Images/Football-Ground-Cropped.jpg" Opacity="0.8" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -41,5 +41,8 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
+        <Label Content="Perfect Squad" FontSize="20" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="134,47,0,0" VerticalAlignment="Top" Width="141"/>
+        <Image HorizontalAlignment="Left" Height="56" Margin="19,622,0,0" VerticalAlignment="Top" Width="367" Stretch="UniformToFill" Source="/Background-Images/FPL-Pitch-Subs.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="561" Margin="752,139,0,0" VerticalAlignment="Top" Width="510" Source="/Background-Images/FPL-Pitch.jpeg"/>
     </Grid>
 </Window>
