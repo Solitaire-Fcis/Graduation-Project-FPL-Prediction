@@ -69,6 +69,11 @@ namespace GP_Fantasy_Pred
         {
 
         }
+        protected override void OnClosed(EventArgs e)
+        {
+            base.OnClosed(e);
+            Application.Current.Shutdown();
+        }
     }
 }
 

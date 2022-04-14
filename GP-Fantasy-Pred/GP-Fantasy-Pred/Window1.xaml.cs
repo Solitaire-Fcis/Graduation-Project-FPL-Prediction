@@ -50,18 +50,49 @@ namespace GP_Fantasy_Pred
             // X2 = 238+25, Y2 = 315
             // Above Measurements are for sure changed for better looks
             TextBlock PlayerName = new TextBlock(), Points = new TextBlock(), TeamName = new TextBlock();
+            Image Player = new Image();
+            
+            // Textblocks Configs
             PlayerName.Background = Brushes.DarkGreen;
             TeamName.Background = Brushes.Green;
             Points.Background = Brushes.LightGreen;
             PlayerName.Foreground = Brushes.White;
             TeamName.Foreground = Brushes.White;
             Points.Foreground = Brushes.White;
+            PlayerName.FontSize = 6;
+            TeamName.FontSize = 6;
+            Points.FontSize = 6;
+            PlayerName.TextAlignment = TextAlignment.Center;
+            TeamName.TextAlignment = TextAlignment.Center;
+            Points.TextAlignment = TextAlignment.Center;
+            PlayerName.VerticalAlignment = VerticalAlignment.Center;
+            TeamName.VerticalAlignment = VerticalAlignment.Center;
+            Points.VerticalAlignment = VerticalAlignment.Center;
+            PlayerName.FontFamily = new FontFamily("Calibri");
+            TeamName.FontFamily = new FontFamily("Calibri");
+            Points.FontFamily = new FontFamily("Calibri");
+            PlayerName.Text = "Lakaka";
+            TeamName.Text = "Chelsea";
+            Points.Text = "0";
+            PlayerName.Width = 50;
+            TeamName.Width = 50;
+            Points.Width = 50;
+            PlayerName.Height = 8;
+            TeamName.Height = 8;
+            Points.Height = 8;
+            PlayerName.Margin = new Thickness(790, 420, 0, 0);
+            TeamName.Margin = new Thickness(790, 434, 0, 0);
+            Points.Margin = new Thickness(790, 448, 0, 0);
 
-            Image Player = new Image();
-            Player.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
-            Player.Margin = new Thickness(835, 300, 0, 0);
+            // Players Images Configs
+            Player.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+            Player.Margin = new Thickness(790, 345, 0, 0);
             Player.Height = 400;
             Player.Width = 400;
+
+            Sub1Grid.Children.Add(PlayerName);
+            Sub1Grid.Children.Add(TeamName);
+            Sub1Grid.Children.Add(Points);
             Sub1Grid.Children.Add(Player);
         }
 
@@ -80,9 +111,12 @@ namespace GP_Fantasy_Pred
         {
             // Algorithm Here
             
-
         }
         // Any Utility Functions
-
+        protected override void OnClosed(EventArgs e)
+        {
+            base.OnClosed(e);
+            Application.Current.Shutdown();
+        }
     }
 }
