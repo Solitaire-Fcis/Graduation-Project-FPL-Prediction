@@ -1,0 +1,20 @@
+E:\Work\DFIR\GPFinal\pythonnet-master\build\lib\pythonnet\runtime\Python.Runtime.deps.json
+E:\Work\DFIR\GPFinal\pythonnet-master\build\lib\pythonnet\runtime\Python.Runtime.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\build\lib\pythonnet\runtime\Python.Runtime.pdb
+E:\Work\DFIR\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.csprojAssemblyReference.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.AssemblyInfoInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.AssemblyInfo.cs
+E:\Work\DFIR\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.csproj.CoreCompileInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.sourcelink.json
+E:\Work\DFIR\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.dll
+E:\Work\DFIR\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\build\lib\pythonnet\runtime\Python.Runtime.deps.json
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\build\lib\pythonnet\runtime\Python.Runtime.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\build\lib\pythonnet\runtime\Python.Runtime.pdb
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.csprojAssemblyReference.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.AssemblyInfoInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.AssemblyInfo.cs
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.csproj.CoreCompileInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.sourcelink.json
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.dll
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\runtime\obj\release\Python.Runtime.pdb

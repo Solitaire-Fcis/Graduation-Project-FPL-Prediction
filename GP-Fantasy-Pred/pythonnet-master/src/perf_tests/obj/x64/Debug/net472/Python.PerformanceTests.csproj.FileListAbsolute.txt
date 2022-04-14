@@ -1,0 +1,10 @@
+E:\Work\DFIR\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.csprojAssemblyReference.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.dll.config
+E:\Work\DFIR\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.AssemblyInfoInputs.cache
+E:\Work\DFIR\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.AssemblyInfo.cs
+E:\Work\DFIR\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.csproj.CoreCompileInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.csprojAssemblyReference.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.dll.config
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.AssemblyInfoInputs.cache
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.AssemblyInfo.cs
+E:\Work\FCIS\4th Year\GPFinal\pythonnet-master\src\perf_tests\obj\x64\Debug\net472\Python.PerformanceTests.csproj.CoreCompileInputs.cache

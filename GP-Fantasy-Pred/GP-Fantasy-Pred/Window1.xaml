@@ -1,0 +1,38 @@
+﻿<Window x:Class="GP_Fantasy_Pred.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GP_Fantasy_Pred"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="DarkGray"/>
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="DarkGray"/>
+            <Style.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="Sub1Grid">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Background-Images/FPL-Background.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Label Content="FPL Prediction"  FontSize="70" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" Width="480" Grid.ColumnSpan="2"/>
+        <Label Content="Recommended Squad" FontSize="20" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="916,182,0,0" VerticalAlignment="Top" Width="214"/>
+        <Image HorizontalAlignment="Left" Height="89" Margin="766,574,0,0" VerticalAlignment="Top" Width="514" Source="/Background-Images/FPL-Pitch-Subs.jpeg" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="467" Margin="590,182,0,0" VerticalAlignment="Top" Width="742" Source="/Background-Images/FPL-Pitch.png" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,0,0,0" Text="Building The Perfect FPL Team" Foreground="White" FontSize="50" TextWrapping="Wrap" VerticalAlignment="Center" Height="282" Width="226"/>
+    </Grid>
+</Window>

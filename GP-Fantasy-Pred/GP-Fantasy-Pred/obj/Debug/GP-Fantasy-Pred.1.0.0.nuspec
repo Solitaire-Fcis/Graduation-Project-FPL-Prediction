@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GP-Fantasy-Pred</id>
+    <version>1.0.0</version>
+    <authors>GP-Fantasy-Pred</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\Work\FCIS\4th Year\GP-Working\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\GP-Fantasy-Pred.runtimeconfig.json" target="lib\net5.0-windows7.0\GP-Fantasy-Pred.runtimeconfig.json" />
+    <file src="E:\Work\FCIS\4th Year\GP-Working\Graduation-Project-FPL-Prediction\GP-Fantasy-Pred\GP-Fantasy-Pred\bin\Debug\net5.0-windows\GP-Fantasy-Pred.dll" target="lib\net5.0-windows7.0\GP-Fantasy-Pred.dll" />
+  </files>
+</package>
