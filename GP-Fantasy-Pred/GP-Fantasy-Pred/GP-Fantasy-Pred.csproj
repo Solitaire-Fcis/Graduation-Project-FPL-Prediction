@@ -24,6 +24,7 @@
     <None Remove="Background-Images\FPL-Background.jpg" />
     <None Remove="Background-Images\FPL-Pitch-Subs.jpeg" />
     <None Remove="Background-Images\FPL-Pitch.jpeg" />
+    <None Remove="Background-Images\FPL-Pitch.png" />
     <None Remove="Background-Images\Liecester-City.png" />
     <None Remove="Background-Images\LiverPool.png" />
     <None Remove="Background-Images\Man-City.png" />
@@ -52,25 +53,16 @@
   <ItemGroup>
     <Resource Include="Background-Images\Arsenal.png" />
     <Resource Include="Background-Images\Bournmouth.png" />
-    <Resource Include="Background-Images\Btn-Backgorund-1.jpg" />
-    <Resource Include="Background-Images\Btn-Background.jpg" />
     <Resource Include="Background-Images\Burnley.png" />
     <Resource Include="Background-Images\chelsea.png" />
     <Resource Include="Background-Images\Everton.png" />
-    <Resource Include="Background-Images\Football-Ground-Cropped.jpg" />
-    <Resource Include="Background-Images\Football-Ground.jpg" />
-    <Resource Include="Background-Images\FPL-Background (2).jpg" />
-    <Resource Include="Background-Images\FPL-Background (3).jpg" />
-    <Resource Include="Background-Images\FPL-Background-1.jpg" />
-    <Resource Include="Background-Images\FPL-Background-4.jpg" />
     <Resource Include="Background-Images\FPL-Background.jpg" />
     <Resource Include="Background-Images\FPL-Pitch-Subs.jpeg" />
-    <Resource Include="Background-Images\FPL-Pitch.jpeg" />
+    <Resource Include="Background-Images\FPL-Pitch.png" />
     <Resource Include="Background-Images\Liecester-City.png" />
     <Resource Include="Background-Images\LiverPool.png" />
     <Resource Include="Background-Images\Man-City.png" />
     <Resource Include="Background-Images\Man-United.png" />
-    <Resource Include="Background-Images\Player.png" />
     <Resource Include="Background-Images\Totenham.png" />
     <Resource Include="Background-Images\Untitled-1.png" />
     <Resource Include="Background-Images\Untitled-11.png" />
