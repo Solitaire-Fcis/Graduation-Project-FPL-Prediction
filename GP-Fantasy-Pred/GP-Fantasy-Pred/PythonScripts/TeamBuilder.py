@@ -46,7 +46,7 @@ def select(gw, budget, data_in, print_output=False):
     captain_name = ''
     for i in range(data_in.shape[0]):
         if captain[i].value() != 0:
-            team_list.append(ret_player(data_in.iloc[i]))
+            team_list.append(ret_captain(data_in.iloc[i]))
             captain_name = data_in.iloc[i].name
             predicted_points_total += (data_in.iloc[i].predicted * 2)
             real_points_total += (data_in.iloc[i].total_points * 2)
@@ -66,6 +66,8 @@ def select(gw, budget, data_in, print_output=False):
 
 def ret_player(player):
     return player['name']+' '+str(int(player['position']))+' '+str(int(player['predicted']))
+def ret_captain(player):
+    return player['name']+' (captain)'+' '+str(int(player['position']))+' '+str(int(player['predicted']))
 
 def select_team(player_data, budget, sub_factor):
     num_players = len(player_data)

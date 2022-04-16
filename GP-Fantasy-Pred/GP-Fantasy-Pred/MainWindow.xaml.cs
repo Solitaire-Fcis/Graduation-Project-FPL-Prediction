@@ -26,7 +26,7 @@ namespace GP_Fantasy_Pred
     public partial class MainWindow : Window
     {
         public PyObject ScriptReturn, Predicted_Points, Team, Substitutions, Captain, Cost;
-        public int Budget, Gameweek;
+        public int Budget = 100, Gameweek;
         public MainWindow()
         {
             InitializeComponent();
@@ -42,8 +42,7 @@ namespace GP_Fantasy_Pred
             using (Py.GIL())
             {
 
-                this.Budget = int.Parse(textbox1.Text);
-                this.Gameweek = int.Parse(textbox2.Text);
+                this.Gameweek = int.Parse(textbox1.Text);
                 PyInt BUD = new PyInt(this.Budget), GW = new PyInt(this.Gameweek);
                 PyObject[] para = new PyObject[2];
                 para[0] = GW;
@@ -66,7 +65,12 @@ namespace GP_Fantasy_Pred
             
         }
         private void Button_Click(object sender, RoutedEventArgs e)
-        {
+        { 
+            if (int.Parse(textbox1.Text) > 38 && int.Parse(textbox1.Text) < 1)
+            {
+                MessageBox.Show("Invalid Gameweek!\nGameweeks Range: 1 to 38");
+                return;
+            }
             PythonAPI();
             Window1 Pred = new Window1(ScriptReturn, Predicted_Points, Team, Substitutions, Captain, Cost, Budget);
             this.Hide();

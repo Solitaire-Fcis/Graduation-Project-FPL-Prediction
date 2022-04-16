@@ -109,10 +109,17 @@ namespace GP_Fantasy_Pred
                     Points.Height = 12;
                     Name.Margin = new Thickness(fwdStart + 15, 425, 0, 0);
                     Points.Margin = new Thickness(fwdStart + 15, 447, 0, 0);
-                    FWD.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    if (forwards[i][posIndex - 1] == "(captain)")
+                    {
+                        FWD.Source = new BitmapImage(new Uri("/Background-Images/Player-Captain.png", UriKind.Relative));
+                        Points.Text = (points * 2).ToString();
+                        total_points += points;
+                    }
+                    else
+                        FWD.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
                     FWD.Margin = new Thickness(fwdStart+15, 350, 0, 0);
-                    FWD.Height = 400;
-                    FWD.Width = 400;
+                    FWD.Height = 65;
+                    FWD.Width = 65;
                     Sub1Grid.Children.Add(Name);
                     Sub1Grid.Children.Add(Points);
                     Sub1Grid.Children.Add(FWD);
@@ -143,10 +150,17 @@ namespace GP_Fantasy_Pred
                     Points.Height = 12;
                     Name.Margin = new Thickness(fwdStart + 15, 425, 0, 0);
                     Points.Margin = new Thickness(fwdStart + 15, 447, 0, 0);
-                    FWD.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    if (forwards[i][posIndex - 1] == "(captain)")
+                    {
+                        FWD.Source = new BitmapImage(new Uri("/Background-Images/Player-Captain.png", UriKind.Relative));
+                        Points.Text = (points * 2).ToString();
+                        total_points += points;
+                    }
+                    else
+                        FWD.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
                     FWD.Margin = new Thickness(fwdStart + 15, 350, 0, 0);
-                    FWD.Height = 400;
-                    FWD.Width = 400;
+                    FWD.Height = 65;
+                    FWD.Width = 65;
                     Sub1Grid.Children.Add(Name);
                     Sub1Grid.Children.Add(Points);
                     Sub1Grid.Children.Add(FWD);
@@ -177,10 +191,16 @@ namespace GP_Fantasy_Pred
                     Points.Height = 12;
                     Name.Margin = new Thickness(0 + 15, 425, 0, 0);
                     Points.Margin = new Thickness(0 + 15, 447, 0, 0);
-                    FWD.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    if (forwards[i][posIndex - 1] == "(captain)")
+                    {
+                        FWD.Source = new BitmapImage(new Uri("/Background-Images/Player-Captain.png", UriKind.Relative));
+                        Points.Text = (points * 2).ToString();
+                    }
+                    else
+                        FWD.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
                     FWD.Margin = new Thickness(0 + 15, 350, 0, 0);
-                    FWD.Height = 400;
-                    FWD.Width = 400;
+                    FWD.Height = 65;
+                    FWD.Width = 65;
                     Sub1Grid.Children.Add(Name);
                     Sub1Grid.Children.Add(Points);
                     Sub1Grid.Children.Add(FWD);
@@ -229,10 +249,17 @@ namespace GP_Fantasy_Pred
                     Points.Height = 12;
                     Name.Margin = new Thickness(midStart + 15, 200, 0, 0);
                     Points.Margin = new Thickness(midStart + 15, 222, 0, 0);
-                    MID.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    if (midfielders[i][posIndex - 1] == "(captain)")
+                    {
+                        MID.Source = new BitmapImage(new Uri("/Background-Images/Player-Captain.png", UriKind.Relative));
+                        Points.Text = (points * 2).ToString();
+                        total_points += points;
+                    }
+                    else
+                        MID.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
                     MID.Margin = new Thickness(midStart + 15, 125, 0, 0);
-                    MID.Height = 400;
-                    MID.Width = 400;
+                    MID.Height = 65;
+                    MID.Width = 65;
                     Sub1Grid.Children.Add(Name);
                     Sub1Grid.Children.Add(Points);
                     Sub1Grid.Children.Add(MID);
@@ -263,10 +290,17 @@ namespace GP_Fantasy_Pred
                     Points.Height = 12;
                     Name.Margin = new Thickness(midStart + 15, 200, 0, 0);
                     Points.Margin = new Thickness(midStart + 15, 222, 0, 0);
-                    MID.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    if (midfielders[i][posIndex - 1] == "(captain)")
+                    {
+                        MID.Source = new BitmapImage(new Uri("/Background-Images/Player-Captain.png", UriKind.Relative));
+                        Points.Text = (points * 2).ToString();
+                        total_points += points;
+                    }
+                    else
+                        MID.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
                     MID.Margin = new Thickness(midStart + 15, 125, 0, 0);
-                    MID.Height = 400;
-                    MID.Width = 400;
+                    MID.Height = 65;
+                    MID.Width = 65;
                     Sub1Grid.Children.Add(Name);
                     Sub1Grid.Children.Add(Points);
                     Sub1Grid.Children.Add(MID);
@@ -297,10 +331,17 @@ namespace GP_Fantasy_Pred
                     Points.Height = 12;
                     Name.Margin = new Thickness(midStart + 15, 200, 0, 0);
                     Points.Margin = new Thickness(midStart + 15, 222, 0, 0);
-                    MID.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    if (midfielders[i][posIndex - 1] == "(captain)")
+                    {
+                        MID.Source = new BitmapImage(new Uri("/Background-Images/Player-Captain.png", UriKind.Relative));
+                        Points.Text = (points * 2).ToString();
+                        total_points += points;
+                    }
+                    else
+                        MID.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
                     MID.Margin = new Thickness(midStart + 15, 125, 0, 0);
-                    MID.Height = 400;
-                    MID.Width = 400;
+                    MID.Height = 65;
+                    MID.Width = 65;
                     Sub1Grid.Children.Add(Name);
                     Sub1Grid.Children.Add(Points);
                     Sub1Grid.Children.Add(MID);
@@ -349,10 +390,17 @@ namespace GP_Fantasy_Pred
                     Points.Height = 12;
                     Name.Margin = new Thickness(defStart + 15, 25, 0, 0);
                     Points.Margin = new Thickness(defStart + 15, 47, 0, 0);
-                    DEF.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    if (defenders[i][posIndex - 1] == "(captain)")
+                    {
+                        DEF.Source = new BitmapImage(new Uri("/Background-Images/Player-Captain.png", UriKind.Relative));
+                        Points.Text = (points * 2).ToString();
+                        total_points += points;
+                    }
+                    else
+                        DEF.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
                     DEF.Margin = new Thickness(defStart + 15, -50, 0, 0);
-                    DEF.Height = 400;
-                    DEF.Width = 400;
+                    DEF.Height = 65;
+                    DEF.Width = 65;
                     Sub1Grid.Children.Add(Name);
                     Sub1Grid.Children.Add(Points);
                     Sub1Grid.Children.Add(DEF);
@@ -383,10 +431,17 @@ namespace GP_Fantasy_Pred
                     Points.Height = 12;
                     Name.Margin = new Thickness(defStart + 15, 25, 0, 0);
                     Points.Margin = new Thickness(defStart + 15, 47, 0, 0);
-                    DEF.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    if (defenders[i][posIndex - 1] == "(captain)")
+                    {
+                        DEF.Source = new BitmapImage(new Uri("/Background-Images/Player-Captain.png", UriKind.Relative));
+                        Points.Text = (points * 2).ToString();
+                        total_points += points;
+                    }
+                    else
+                        DEF.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
                     DEF.Margin = new Thickness(defStart + 15, -50, 0, 0);
-                    DEF.Height = 400;
-                    DEF.Width = 400;
+                    DEF.Height = 65;
+                    DEF.Width = 65;
                     Sub1Grid.Children.Add(Name);
                     Sub1Grid.Children.Add(Points);
                     Sub1Grid.Children.Add(DEF);
@@ -417,10 +472,17 @@ namespace GP_Fantasy_Pred
                     Points.Height = 12;
                     Name.Margin = new Thickness(defStart + 15, 25, 0, 0);
                     Points.Margin = new Thickness(defStart + 15, 47, 0, 0);
-                    DEF.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    if (defenders[i][posIndex - 1] == "(captain)")
+                    {
+                        DEF.Source = new BitmapImage(new Uri("/Background-Images/Player-Captain.png", UriKind.Relative));
+                        Points.Text = (points * 2).ToString();
+                        total_points += points;
+                    }
+                    else
+                        DEF.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
                     DEF.Margin = new Thickness(defStart + 15, -50, 0, 0);
-                    DEF.Height = 400;
-                    DEF.Width = 400;
+                    DEF.Height = 65;
+                    DEF.Width = 65;
                     Sub1Grid.Children.Add(Name);
                     Sub1Grid.Children.Add(Points);
                     Sub1Grid.Children.Add(DEF);
@@ -446,10 +508,6 @@ namespace GP_Fantasy_Pred
             GK = new Image();
             Name = new TextBlock();
             Points = new TextBlock();
-            GK.Source = new BitmapImage(new Uri("/Background-Images/Burnley.png", UriKind.Relative));
-            GK.Margin = new Thickness(15, -225, 0, 0);
-            GK.Height = 400;
-            GK.Width = 400;
             Name.Background = Brushes.DarkGreen;
             Points.Background = Brushes.Green;
             Name.Foreground = Brushes.White;
@@ -470,6 +528,17 @@ namespace GP_Fantasy_Pred
             Points.Height = 12;
             Name.Margin = new Thickness(15, -150, 0, 0);
             Points.Margin = new Thickness(15, -128, 0, 0);
+            if (goalkeeperStart[GKposIndex - 1] == "(captain)")
+            {
+                GK.Source = new BitmapImage(new Uri("/Background-Images/GK-Captain.png", UriKind.Relative));
+                Points.Text = (GKpoints * 2).ToString();
+                total_points += GKpoints;
+            }
+            else
+                GK.Source = new BitmapImage(new Uri("/Background-Images/GK.png", UriKind.Relative));
+            GK.Margin = new Thickness(15, -225, 0, 0);
+            GK.Height = 80;
+            GK.Width = 80;
             Sub1Grid.Children.Add(Name);
             Sub1Grid.Children.Add(Points);
             Sub1Grid.Children.Add(GK);
@@ -486,7 +555,6 @@ namespace GP_Fantasy_Pred
                     {
                         posIndex = j;
                         points = int.Parse(subs[i][j + 1]);
-                        total_points += points;
                         break;
                     }
                 }
@@ -515,10 +583,10 @@ namespace GP_Fantasy_Pred
                 Points.Height = 12;
                 Name.Margin = new Thickness(subStart, 625, 0, 0);
                 Points.Margin = new Thickness(subStart, 647, 0, 0);
-                SUB.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
-                SUB.Margin = new Thickness(subStart, 450, 0, 0);
-                SUB.Height = 400;
-                SUB.Width = 400;
+                SUB.Source = new BitmapImage(new Uri("/Background-Images/Player.png", UriKind.Relative));
+                SUB.Margin = new Thickness(subStart, 550, 0, 0);
+                SUB.Height = 65;
+                SUB.Width = 65;
                 Sub1Grid.Children.Add(Name);
                 Sub1Grid.Children.Add(Points);
                 Sub1Grid.Children.Add(SUB);
@@ -532,7 +600,6 @@ namespace GP_Fantasy_Pred
                 {
                     GKSubposIndex = j;
                     GKSubpoints = int.Parse(goalkeeperSub[j + 1]);
-                    total_points += GKSubpoints;
                     break;
                 }
             }
@@ -561,10 +628,10 @@ namespace GP_Fantasy_Pred
             Points.Height = 12;
             Name.Margin = new Thickness(-500, 625, 0, 0);
             Points.Margin = new Thickness(-500, 647, 0, 0);
-            SUB.Source = new BitmapImage(new Uri("/Background-Images/Burnley.png", UriKind.Relative));
-            SUB.Margin = new Thickness(-500, 450, 0, 0);
-            SUB.Height = 400;
-            SUB.Width = 400;
+            SUB.Source = new BitmapImage(new Uri("/Background-Images/GK.png", UriKind.Relative));
+            SUB.Margin = new Thickness(-500, 550, 0, 0);
+            SUB.Height = 80;
+            SUB.Width = 80;
             Sub1Grid.Children.Add(Name);
             Sub1Grid.Children.Add(Points);
             Sub1Grid.Children.Add(SUB);

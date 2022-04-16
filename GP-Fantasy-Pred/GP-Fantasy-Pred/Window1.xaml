@@ -41,5 +41,7 @@
         <Image HorizontalAlignment="Center" Height="485" VerticalAlignment="Top" Width="1124" Source="/Background-Images/FPL-Pitch.png" Stretch="UniformToFill" Margin="0,89,0,0"/>
         <TextBlock HorizontalAlignment="Left" Margin="60,0,0,0" Text="Building The Perfect FPL Team" Foreground="White" FontSize="50" TextWrapping="Wrap" VerticalAlignment="Center" Height="282" Width="226"/>
         <Label Content="Total Points :" FontSize="20" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Margin="13,0,0,11" VerticalAlignment="Bottom" Width="134"/>
+        <Image HorizontalAlignment="Left" Source="/Background-Images/Banner.png" Height="22" Margin="471,197,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Source="/Background-Images/Banner.png" Height="22" Margin="765,197,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>
