@@ -26,74 +26,562 @@ namespace GP_Fantasy_Pred
     /// </summary>
     public partial class Window1 : Window
     {
-        public PyObject ScriptReturn, ErrMSE, Predictions;
-        public int Budget;
-        public Window1(PyObject ScriptReturn, PyObject ErrMSE, PyObject Predictions, int Budget)
+        #region All Declarations
+        public PyObject ScriptReturn, Predicted_Points, Team, Substitutions, Captain, Cost;
+        public int Budget, Gameweek, NumofDef, NumofMid, NumofFwd, fwdStart = -350,
+            midStart = -450,defStart = -450, subStart = -175, total_points = 0;
+        public List<List<string>> forwards, midfielders, defenders, subs;
+        public List<string> goalkeeperStart, goalkeeperSub;
+        public TextBlock Name = new TextBlock(), Points = new TextBlock();
+        public Image FWD = new Image(), MID = new Image(), DEF = new Image(), GK = new Image(), SUB, GKSUB;
+        #endregion
+
+        public Window1(PyObject ScriptReturn, PyObject Predicted_Points, PyObject Team,
+            PyObject Substitutions, PyObject Captain, PyObject Cost, int Budget)
         {
             this.Budget = Budget;
             this.ScriptReturn = ScriptReturn;
+            this.Predicted_Points = Predicted_Points;
+            this.Team = Team;
+            this.Substitutions = Substitutions;
+            this.Captain = Captain;
+            this.Cost = Cost;
             InitializeComponent();
             Construct_Team();
             Draw_Players();
+            PythonEngine.Shutdown();
         }
         
         // Drawing Players Fit
         public void Draw_Players()
         {
-            // NUMBERS HAVE CHANGED IN ACCORDANCE TO NEW GUI SETTING
-            // Forward Players at X = -1100, Y = -300
-            // Midfielders at X = -1100, Y = 0
-            // Defenders at X = -1100, Y = 250
-            // Goalkeeper at X = -835, Y = 460
-            // Court Margins 
-            // X1 = 25, Y1 = 0
-            // X2 = 238+25, Y2 = 315
-            // Above Measurements are for sure changed for better looks
-            TextBlock PlayerName = new TextBlock(), Points = new TextBlock(), TeamName = new TextBlock();
-            Image Player = new Image();
-            
-            // Textblocks Configs
-            PlayerName.Background = Brushes.DarkGreen;
-            TeamName.Background = Brushes.Green;
-            Points.Background = Brushes.LightGreen;
-            PlayerName.Foreground = Brushes.White;
-            TeamName.Foreground = Brushes.White;
+            #region Starting Players
+            // Drawing Forwards
+            if (this.forwards.Count == 2)
+                fwdStart = -175;
+            if(this.midfielders.Count == 4)
+                midStart = -350;
+            if(this.midfielders.Count == 3)
+                midStart = -337;
+            if(this.defenders.Count == 4)
+                defStart = -350;
+            if(this.defenders.Count == 3)
+                defStart = -337;
+
+            for (int i = 0;i < this.forwards.Count; i++)
+            {
+                string playerName = "";
+                int posIndex = 0, points = 0;
+                for (int j = 0; j < forwards[i].Count; j++)
+                {
+                    if (int.TryParse(forwards[i][j], out _))
+                    {
+                        posIndex = j;
+                        points = int.Parse(forwards[i][j + 1]);
+                        total_points += points;
+                        break;
+                    }
+                }
+                for (int j = 0; j < 2; j++)
+                    playerName += forwards[i][j] + ' ';
+                if (this.forwards.Count == 3)
+                {
+                    FWD = new Image();
+                    Name = new TextBlock();
+                    Points = new TextBlock();
+                    Name.Background = Brushes.DarkGreen;
+                    Points.Background = Brushes.Green;
+                    Name.Foreground = Brushes.White;
+                    Points.Foreground = Brushes.White;
+                    Name.FontSize = 10;
+                    Points.FontSize = 10;
+                    Name.TextAlignment = TextAlignment.Center;
+                    Points.TextAlignment = TextAlignment.Center;
+                    Name.VerticalAlignment = VerticalAlignment.Center;
+                    Points.VerticalAlignment = VerticalAlignment.Center;
+                    Name.FontFamily = new FontFamily("Calibri");
+                    Points.FontFamily = new FontFamily("Calibri");
+                    Name.Text = playerName;
+                    Points.Text = points.ToString();
+                    Name.Width = 100;
+                    Points.Width = 100;
+                    Name.Height = 12;
+                    Points.Height = 12;
+                    Name.Margin = new Thickness(fwdStart + 15, 425, 0, 0);
+                    Points.Margin = new Thickness(fwdStart + 15, 447, 0, 0);
+                    FWD.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    FWD.Margin = new Thickness(fwdStart+15, 350, 0, 0);
+                    FWD.Height = 400;
+                    FWD.Width = 400;
+                    Sub1Grid.Children.Add(Name);
+                    Sub1Grid.Children.Add(Points);
+                    Sub1Grid.Children.Add(FWD);
+                    fwdStart += 350;
+                }
+                else if(this.forwards.Count == 2)
+                {
+                    FWD = new Image();
+                    Name = new TextBlock();
+                    Points = new TextBlock();
+                    Name.Background = Brushes.DarkGreen;
+                    Points.Background = Brushes.Green;
+                    Name.Foreground = Brushes.White;
+                    Points.Foreground = Brushes.White;
+                    Name.FontSize = 10;
+                    Points.FontSize = 10;
+                    Name.TextAlignment = TextAlignment.Center;
+                    Points.TextAlignment = TextAlignment.Center;
+                    Name.VerticalAlignment = VerticalAlignment.Center;
+                    Points.VerticalAlignment = VerticalAlignment.Center;
+                    Name.FontFamily = new FontFamily("Calibri");
+                    Points.FontFamily = new FontFamily("Calibri");
+                    Name.Text = playerName;
+                    Points.Text = points.ToString();
+                    Name.Width = 100;
+                    Points.Width = 100;
+                    Name.Height = 12;
+                    Points.Height = 12;
+                    Name.Margin = new Thickness(fwdStart + 15, 425, 0, 0);
+                    Points.Margin = new Thickness(fwdStart + 15, 447, 0, 0);
+                    FWD.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    FWD.Margin = new Thickness(fwdStart + 15, 350, 0, 0);
+                    FWD.Height = 400;
+                    FWD.Width = 400;
+                    Sub1Grid.Children.Add(Name);
+                    Sub1Grid.Children.Add(Points);
+                    Sub1Grid.Children.Add(FWD);
+                    fwdStart += 350;
+                }
+                else if (this.forwards.Count == 1)
+                {
+                    FWD = new Image();
+                    Name = new TextBlock();
+                    Points = new TextBlock();
+                    Name.Background = Brushes.DarkGreen;
+                    Points.Background = Brushes.Green;
+                    Name.Foreground = Brushes.White;
+                    Points.Foreground = Brushes.White;
+                    Name.FontSize = 10;
+                    Points.FontSize = 10;
+                    Name.TextAlignment = TextAlignment.Center;
+                    Points.TextAlignment = TextAlignment.Center;
+                    Name.VerticalAlignment = VerticalAlignment.Center;
+                    Points.VerticalAlignment = VerticalAlignment.Center;
+                    Name.FontFamily = new FontFamily("Calibri");
+                    Points.FontFamily = new FontFamily("Calibri");
+                    Name.Text = playerName;
+                    Points.Text = points.ToString();
+                    Name.Width = 100;
+                    Points.Width = 100;
+                    Name.Height = 12;
+                    Points.Height = 12;
+                    Name.Margin = new Thickness(0 + 15, 425, 0, 0);
+                    Points.Margin = new Thickness(0 + 15, 447, 0, 0);
+                    FWD.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    FWD.Margin = new Thickness(0 + 15, 350, 0, 0);
+                    FWD.Height = 400;
+                    FWD.Width = 400;
+                    Sub1Grid.Children.Add(Name);
+                    Sub1Grid.Children.Add(Points);
+                    Sub1Grid.Children.Add(FWD);
+                    break;
+                }
+            }
+            // Drawing Midfielders
+            for (int i = 0; i < this.midfielders.Count; i++)
+            {
+                string playerName = "";
+                int posIndex = 0, points = 0;
+                for (int j = 0; j < midfielders[i].Count; j++)
+                {
+                    if (int.TryParse(midfielders[i][j], out _))
+                    {
+                        posIndex = j;
+                        points = int.Parse(midfielders[i][j + 1]);
+                        total_points += points;
+                        break;
+                    }
+                }
+                for (int j = 0; j < 2; j++)
+                    playerName += midfielders[i][j] + ' ';
+                if (this.midfielders.Count == 3)
+                {
+                    MID = new Image();
+                    Name = new TextBlock();
+                    Points = new TextBlock();
+                    Name.Background = Brushes.DarkGreen;
+                    Points.Background = Brushes.Green;
+                    Name.Foreground = Brushes.White;
+                    Points.Foreground = Brushes.White;
+                    Name.FontSize = 10;
+                    Points.FontSize = 10;
+                    Name.TextAlignment = TextAlignment.Center;
+                    Points.TextAlignment = TextAlignment.Center;
+                    Name.VerticalAlignment = VerticalAlignment.Center;
+                    Points.VerticalAlignment = VerticalAlignment.Center;
+                    Name.FontFamily = new FontFamily("Calibri");
+                    Points.FontFamily = new FontFamily("Calibri");
+                    Name.Text = playerName;
+                    Points.Text = points.ToString();
+                    Name.Width = 100;
+                    Points.Width = 100;
+                    Name.Height = 12;
+                    Points.Height = 12;
+                    Name.Margin = new Thickness(midStart + 15, 200, 0, 0);
+                    Points.Margin = new Thickness(midStart + 15, 222, 0, 0);
+                    MID.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    MID.Margin = new Thickness(midStart + 15, 125, 0, 0);
+                    MID.Height = 400;
+                    MID.Width = 400;
+                    Sub1Grid.Children.Add(Name);
+                    Sub1Grid.Children.Add(Points);
+                    Sub1Grid.Children.Add(MID);
+                    midStart += 337;
+                }
+                else if (this.midfielders.Count == 4)
+                {
+                    MID = new Image();
+                    Name = new TextBlock();
+                    Points = new TextBlock();
+                    Name.Background = Brushes.DarkGreen;
+                    Points.Background = Brushes.Green;
+                    Name.Foreground = Brushes.White;
+                    Points.Foreground = Brushes.White;
+                    Name.FontSize = 10;
+                    Points.FontSize = 10;
+                    Name.TextAlignment = TextAlignment.Center;
+                    Points.TextAlignment = TextAlignment.Center;
+                    Name.VerticalAlignment = VerticalAlignment.Center;
+                    Points.VerticalAlignment = VerticalAlignment.Center;
+                    Name.FontFamily = new FontFamily("Calibri");
+                    Points.FontFamily = new FontFamily("Calibri");
+                    Name.Text = playerName;
+                    Points.Text = points.ToString();
+                    Name.Width = 100;
+                    Points.Width = 100;
+                    Name.Height = 12;
+                    Points.Height = 12;
+                    Name.Margin = new Thickness(midStart + 15, 200, 0, 0);
+                    Points.Margin = new Thickness(midStart + 15, 222, 0, 0);
+                    MID.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    MID.Margin = new Thickness(midStart + 15, 125, 0, 0);
+                    MID.Height = 400;
+                    MID.Width = 400;
+                    Sub1Grid.Children.Add(Name);
+                    Sub1Grid.Children.Add(Points);
+                    Sub1Grid.Children.Add(MID);
+                    midStart += 237;
+                }
+                else if (this.midfielders.Count == 5)
+                {
+                    MID = new Image();
+                    Name = new TextBlock();
+                    Points = new TextBlock();
+                    Name.Background = Brushes.DarkGreen;
+                    Points.Background = Brushes.Green;
+                    Name.Foreground = Brushes.White;
+                    Points.Foreground = Brushes.White;
+                    Name.FontSize = 10;
+                    Points.FontSize = 10;
+                    Name.TextAlignment = TextAlignment.Center;
+                    Points.TextAlignment = TextAlignment.Center;
+                    Name.VerticalAlignment = VerticalAlignment.Center;
+                    Points.VerticalAlignment = VerticalAlignment.Center;
+                    Name.FontFamily = new FontFamily("Calibri");
+                    Points.FontFamily = new FontFamily("Calibri");
+                    Name.Text = playerName;
+                    Points.Text = points.ToString();
+                    Name.Width = 100;
+                    Points.Width = 100;
+                    Name.Height = 12;
+                    Points.Height = 12;
+                    Name.Margin = new Thickness(midStart + 15, 200, 0, 0);
+                    Points.Margin = new Thickness(midStart + 15, 222, 0, 0);
+                    MID.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    MID.Margin = new Thickness(midStart + 15, 125, 0, 0);
+                    MID.Height = 400;
+                    MID.Width = 400;
+                    Sub1Grid.Children.Add(Name);
+                    Sub1Grid.Children.Add(Points);
+                    Sub1Grid.Children.Add(MID);
+                    midStart += 225;
+                }
+            }
+            // Drawing Defenders
+            for (int i = 0; i < this.defenders.Count; i++)
+            {
+                string playerName = "";
+                int posIndex = 0, points = 0;
+                for(int j = 0;j < defenders[i].Count;j++)
+                {
+                    if(int.TryParse(defenders[i][j], out _))
+                    {
+                        posIndex = j;
+                        points = int.Parse(defenders[i][j + 1]);
+                        total_points += points;
+                        break;
+                    }
+                }
+                for(int j = 0;j < 2;j++)
+                    playerName += defenders[i][j] + ' ';
+                if (this.defenders.Count == 3)
+                {
+                    DEF = new Image();
+                    Name = new TextBlock();
+                    Points = new TextBlock();
+                    Name.Background = Brushes.DarkGreen;
+                    Points.Background = Brushes.Green;
+                    Name.Foreground = Brushes.White;
+                    Points.Foreground = Brushes.White;
+                    Name.FontSize = 10;
+                    Points.FontSize = 10;
+                    Name.TextAlignment = TextAlignment.Center;
+                    Points.TextAlignment = TextAlignment.Center;
+                    Name.VerticalAlignment = VerticalAlignment.Center;
+                    Points.VerticalAlignment = VerticalAlignment.Center;
+                    Name.FontFamily = new FontFamily("Calibri");
+                    Points.FontFamily = new FontFamily("Calibri");
+                    Name.Text = playerName;
+                    Points.Text = points.ToString();
+                    Name.Width = 100;
+                    Points.Width = 100;
+                    Name.Height = 12;
+                    Points.Height = 12;
+                    Name.Margin = new Thickness(defStart + 15, 25, 0, 0);
+                    Points.Margin = new Thickness(defStart + 15, 47, 0, 0);
+                    DEF.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    DEF.Margin = new Thickness(defStart + 15, -50, 0, 0);
+                    DEF.Height = 400;
+                    DEF.Width = 400;
+                    Sub1Grid.Children.Add(Name);
+                    Sub1Grid.Children.Add(Points);
+                    Sub1Grid.Children.Add(DEF);
+                    defStart += 337;
+                }
+                else if (this.defenders.Count == 4)
+                {
+                    DEF = new Image();
+                    Name = new TextBlock();
+                    Points = new TextBlock();
+                    Name.Background = Brushes.DarkGreen;
+                    Points.Background = Brushes.Green;
+                    Name.Foreground = Brushes.White;
+                    Points.Foreground = Brushes.White;
+                    Name.FontSize = 10;
+                    Points.FontSize = 10;
+                    Name.TextAlignment = TextAlignment.Center;
+                    Points.TextAlignment = TextAlignment.Center;
+                    Name.VerticalAlignment = VerticalAlignment.Center;
+                    Points.VerticalAlignment = VerticalAlignment.Center;
+                    Name.FontFamily = new FontFamily("Calibri");
+                    Points.FontFamily = new FontFamily("Calibri");
+                    Name.Text = playerName;
+                    Points.Text = points.ToString();
+                    Name.Width = 100;
+                    Points.Width = 100;
+                    Name.Height = 12;
+                    Points.Height = 12;
+                    Name.Margin = new Thickness(defStart + 15, 25, 0, 0);
+                    Points.Margin = new Thickness(defStart + 15, 47, 0, 0);
+                    DEF.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    DEF.Margin = new Thickness(defStart + 15, -50, 0, 0);
+                    DEF.Height = 400;
+                    DEF.Width = 400;
+                    Sub1Grid.Children.Add(Name);
+                    Sub1Grid.Children.Add(Points);
+                    Sub1Grid.Children.Add(DEF);
+                    defStart += 237;
+                }
+                else if (this.defenders.Count == 5)
+                {
+                    DEF = new Image();
+                    Name = new TextBlock();
+                    Points = new TextBlock();
+                    Name.Background = Brushes.DarkGreen;
+                    Points.Background = Brushes.Green;
+                    Name.Foreground = Brushes.White;
+                    Points.Foreground = Brushes.White;
+                    Name.FontSize = 10;
+                    Points.FontSize = 10;
+                    Name.TextAlignment = TextAlignment.Center;
+                    Points.TextAlignment = TextAlignment.Center;
+                    Name.VerticalAlignment = VerticalAlignment.Center;
+                    Points.VerticalAlignment = VerticalAlignment.Center;
+                    Name.FontFamily = new FontFamily("Calibri");
+                    Points.FontFamily = new FontFamily("Calibri");
+                    Name.Text = playerName;
+                    Points.Text = points.ToString();
+                    Name.Width = 100;
+                    Points.Width = 100;
+                    Name.Height = 12;
+                    Points.Height = 12;
+                    Name.Margin = new Thickness(defStart + 15, 25, 0, 0);
+                    Points.Margin = new Thickness(defStart + 15, 47, 0, 0);
+                    DEF.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                    DEF.Margin = new Thickness(defStart + 15, -50, 0, 0);
+                    DEF.Height = 400;
+                    DEF.Width = 400;
+                    Sub1Grid.Children.Add(Name);
+                    Sub1Grid.Children.Add(Points);
+                    Sub1Grid.Children.Add(DEF);
+                    defStart += 225;
+                }
+            }
+
+            // Drawing Goalkeeper
+            string GKplayerName = "";
+            int GKposIndex = 0, GKpoints = 0;
+            for (int j = 0; j < goalkeeperStart.Count; j++)
+            {
+                if (int.TryParse(goalkeeperStart[j], out _))
+                {
+                    GKposIndex = j;
+                    GKpoints = int.Parse(goalkeeperStart[j + 1]);
+                    total_points += GKpoints;
+                    break;
+                }
+            }
+            for (int j = 0; j < 2; j++)
+                GKplayerName += goalkeeperStart[j] + ' ';
+            GK = new Image();
+            Name = new TextBlock();
+            Points = new TextBlock();
+            GK.Source = new BitmapImage(new Uri("/Background-Images/Burnley.png", UriKind.Relative));
+            GK.Margin = new Thickness(15, -225, 0, 0);
+            GK.Height = 400;
+            GK.Width = 400;
+            Name.Background = Brushes.DarkGreen;
+            Points.Background = Brushes.Green;
+            Name.Foreground = Brushes.White;
             Points.Foreground = Brushes.White;
-            PlayerName.FontSize = 6;
-            TeamName.FontSize = 6;
-            Points.FontSize = 6;
-            PlayerName.TextAlignment = TextAlignment.Center;
-            TeamName.TextAlignment = TextAlignment.Center;
+            Name.FontSize = 10;
+            Points.FontSize = 10;
+            Name.TextAlignment = TextAlignment.Center;
             Points.TextAlignment = TextAlignment.Center;
-            PlayerName.VerticalAlignment = VerticalAlignment.Center;
-            TeamName.VerticalAlignment = VerticalAlignment.Center;
+            Name.VerticalAlignment = VerticalAlignment.Center;
             Points.VerticalAlignment = VerticalAlignment.Center;
-            PlayerName.FontFamily = new FontFamily("Calibri");
-            TeamName.FontFamily = new FontFamily("Calibri");
+            Name.FontFamily = new FontFamily("Calibri");
             Points.FontFamily = new FontFamily("Calibri");
-            PlayerName.Text = "Lakaka";
-            TeamName.Text = "Chelsea";
-            Points.Text = "0";
-            PlayerName.Width = 50;
-            TeamName.Width = 50;
-            Points.Width = 50;
-            PlayerName.Height = 8;
-            TeamName.Height = 8;
-            Points.Height = 8;
-            PlayerName.Margin = new Thickness(790, 420, 0, 0);
-            TeamName.Margin = new Thickness(790, 434, 0, 0);
-            Points.Margin = new Thickness(790, 448, 0, 0);
-
-            // Players Images Configs
-            Player.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
-            Player.Margin = new Thickness(790, 345, 0, 0);
-            Player.Height = 400;
-            Player.Width = 400;
-
-            Sub1Grid.Children.Add(PlayerName);
-            Sub1Grid.Children.Add(TeamName);
+            Name.Text = GKplayerName;
+            Points.Text = GKpoints.ToString();
+            Name.Width = 100;
+            Points.Width = 100;
+            Name.Height = 12;
+            Points.Height = 12;
+            Name.Margin = new Thickness(15, -150, 0, 0);
+            Points.Margin = new Thickness(15, -128, 0, 0);
+            Sub1Grid.Children.Add(Name);
             Sub1Grid.Children.Add(Points);
-            Sub1Grid.Children.Add(Player);
+            Sub1Grid.Children.Add(GK);
+            #endregion
+
+            #region Substitutions
+            for (int i = 0; i < this.subs.Count; i++)
+            {
+                string playerName = "";
+                int posIndex = 0, points = 0;
+                for (int j = 0; j < subs[i].Count; j++)
+                {
+                    if (int.TryParse(subs[i][j], out _))
+                    {
+                        posIndex = j;
+                        points = int.Parse(subs[i][j + 1]);
+                        total_points += points;
+                        break;
+                    }
+                }
+                for (int j = 0; j < 2; j++)
+                    playerName += subs[i][j] + ' ';
+                SUB = new Image();
+                Name = new TextBlock();
+                Points = new TextBlock();
+                Name.Background = Brushes.Green;
+                Points.Background = Brushes.LightGreen;
+                Name.Foreground = Brushes.White;
+                Points.Foreground = Brushes.Black;
+                Name.FontSize = 10;
+                Points.FontSize = 10;
+                Name.TextAlignment = TextAlignment.Center;
+                Points.TextAlignment = TextAlignment.Center;
+                Name.VerticalAlignment = VerticalAlignment.Center;
+                Points.VerticalAlignment = VerticalAlignment.Center;
+                Name.FontFamily = new FontFamily("Calibri");
+                Points.FontFamily = new FontFamily("Calibri");
+                Name.Text = playerName;
+                Points.Text = points.ToString();
+                Name.Width = 100;
+                Points.Width = 100;
+                Name.Height = 12;
+                Points.Height = 12;
+                Name.Margin = new Thickness(subStart, 625, 0, 0);
+                Points.Margin = new Thickness(subStart, 647, 0, 0);
+                SUB.Source = new BitmapImage(new Uri("/Background-Images/chelsea.png", UriKind.Relative));
+                SUB.Margin = new Thickness(subStart, 450, 0, 0);
+                SUB.Height = 400;
+                SUB.Width = 400;
+                Sub1Grid.Children.Add(Name);
+                Sub1Grid.Children.Add(Points);
+                Sub1Grid.Children.Add(SUB);
+                subStart += 350;
+            }
+            string GKSubplayerName = "";
+            int GKSubposIndex = 0, GKSubpoints = 0;
+            for (int j = 0; j < goalkeeperSub.Count; j++)
+            {
+                if (int.TryParse(goalkeeperSub[j], out _))
+                {
+                    GKSubposIndex = j;
+                    GKSubpoints = int.Parse(goalkeeperSub[j + 1]);
+                    total_points += GKSubpoints;
+                    break;
+                }
+            }
+            for (int j = 0; j < 2; j++)
+                GKSubplayerName += goalkeeperSub[j] + ' ';
+            SUB = new Image();
+            Name = new TextBlock();
+            Points = new TextBlock();
+            Name.Background = Brushes.Green;
+            Points.Background = Brushes.LightGreen;
+            Name.Foreground = Brushes.White;
+            Points.Foreground = Brushes.Black;
+            Name.FontSize = 10;
+            Points.FontSize = 10;
+            Name.TextAlignment = TextAlignment.Center;
+            Points.TextAlignment = TextAlignment.Center;
+            Name.VerticalAlignment = VerticalAlignment.Center;
+            Points.VerticalAlignment = VerticalAlignment.Center;
+            Name.FontFamily = new FontFamily("Calibri");
+            Points.FontFamily = new FontFamily("Calibri");
+            Name.Text = GKSubplayerName;
+            Points.Text = GKSubpoints.ToString();
+            Name.Width = 100;
+            Points.Width = 100;
+            Name.Height = 12;
+            Points.Height = 12;
+            Name.Margin = new Thickness(-500, 625, 0, 0);
+            Points.Margin = new Thickness(-500, 647, 0, 0);
+            SUB.Source = new BitmapImage(new Uri("/Background-Images/Burnley.png", UriKind.Relative));
+            SUB.Margin = new Thickness(-500, 450, 0, 0);
+            SUB.Height = 400;
+            SUB.Width = 400;
+            Sub1Grid.Children.Add(Name);
+            Sub1Grid.Children.Add(Points);
+            Sub1Grid.Children.Add(SUB);
+            #endregion
+
+            #region Extras
+            TextBlock TotpointsBlock = new TextBlock();
+            TotpointsBlock.Text = total_points.ToString();
+            TotpointsBlock.FontFamily = new FontFamily("Calibri");
+            TotpointsBlock.Margin = new Thickness(-950, 627, 0, 0);
+            TotpointsBlock.TextAlignment = TextAlignment.Center;
+            TotpointsBlock.VerticalAlignment = VerticalAlignment.Center;
+            TotpointsBlock.Foreground = Brushes.White;
+            TotpointsBlock.FontSize = 20;
+            TotpointsBlock.FontWeight = FontWeights.Bold;
+            Sub1Grid.Children.Add(TotpointsBlock);
+            #endregion
         }
 
         // Protoype of a Button Click's Effect
@@ -106,11 +594,53 @@ namespace GP_Fantasy_Pred
         {
 
         }
-        // Constructing Team Using 0/1 Knapsack Algorithm
+        // Constructing Team and Gathering Information On Players Positions and Counts in Each Position
         public void Construct_Team()
         {
-            // Algorithm Here
-            
+            forwards = new List<List<string>>();
+            midfielders = new List<List<string>>();
+            defenders = new List<List<string>>();
+            subs = new List<List<string>>();
+            for (int i = 0;i < 11;i++)
+            {
+                var player = Team[i];
+                List<string> playerinfo = player.ToString().Split().ToList();
+                int posIndex = 0;
+                for (int j = 0; j < playerinfo.Count; j++)
+                {
+                    if (int.TryParse(playerinfo[j], out _))
+                    {
+                        posIndex = j;
+                        break;
+                    }
+                }
+                if(playerinfo[posIndex] == "4")
+                    forwards.Add(playerinfo);
+                if (playerinfo[posIndex] == "3")
+                    midfielders.Add(playerinfo);
+                if (playerinfo[posIndex] == "2")
+                    defenders.Add(playerinfo);
+                if (playerinfo[posIndex] == "1")
+                    goalkeeperStart = playerinfo;
+            }
+            for (int i = 0; i < 4; i++)
+            {
+                var player = Substitutions[i];
+                List<string> playerinfo = player.ToString().Split().ToList();
+                int posIndex = 0;
+                for (int j = 0; j < playerinfo.Count; j++)
+                {
+                    if (int.TryParse(playerinfo[j], out _))
+                    {
+                        posIndex = j;
+                        break;
+                    }
+                }
+                if (playerinfo[posIndex] == "1")
+                    goalkeeperSub = playerinfo;
+                else
+                    subs.Add(playerinfo);
+            }
         }
         // Any Utility Functions
         protected override void OnClosed(EventArgs e)

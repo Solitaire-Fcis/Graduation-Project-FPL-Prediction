@@ -18,7 +18,7 @@
             </Style.Resources>
         </Style>
         <Style TargetType="TextBox">
-            <Setter Property="Background" Value="Gray"/>
+            <Setter Property="Background" Value="LightGray"/>
             <Style.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -33,7 +33,9 @@
         <Button Content="Assemble Team" FontWeight="Bold" FontSize="20" HorizontalAlignment="Left" Margin="1080,631,0,0" VerticalAlignment="Top" Width="172" Click="Button_Click" Height="34"/>
         <Label Content="FPL Prediction"  FontSize="70" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" Width="480"/>
         <TextBlock HorizontalAlignment="Left" Margin="60,0,0,0" Text="Building The Perfect FPL Team" Foreground="White" FontSize="50" TextWrapping="Wrap" VerticalAlignment="Center" Height="282" Width="226"/>
-        <Label Content="Enter your budget :" FontSize="25" Foreground="White"  HorizontalAlignment="Left" Margin="867,205,0,0" VerticalAlignment="Top" Height="51" Width="223"/>
+        <Label Content="Enter Your Budget :" FontSize="25" Foreground="White"  HorizontalAlignment="Left" Margin="867,205,0,0" VerticalAlignment="Top" Height="51" Width="223"/>
         <TextBox x:Name="textbox1" HorizontalAlignment="Left" FontSize="20" Margin="1095,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Height="25" TextChanged="textbox1_TextChanged"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" FontSize="20" Margin="1095,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Height="25" TextChanged="textbox1_TextChanged"/>
+        <Label Content="Enter Gameweek   :" FontSize="25" Foreground="White"  HorizontalAlignment="Left" Margin="867,269,0,0" VerticalAlignment="Top" Height="51" Width="223"/>
     </Grid>
 </Window>

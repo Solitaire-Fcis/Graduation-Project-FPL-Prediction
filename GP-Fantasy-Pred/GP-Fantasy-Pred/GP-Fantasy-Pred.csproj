@@ -9,11 +9,13 @@
 
   <ItemGroup>
     <None Remove="Background-Images\Arsenal.png" />
+    <None Remove="Background-Images\Bournemouth.png" />
     <None Remove="Background-Images\Bournmouth.png" />
     <None Remove="Background-Images\Btn-Backgorund-1.jpg" />
     <None Remove="Background-Images\Btn-Background.jpg" />
     <None Remove="Background-Images\Burnley.png" />
     <None Remove="Background-Images\chelsea.png" />
+    <None Remove="Background-Images\Crystal Palace.png" />
     <None Remove="Background-Images\Everton.png" />
     <None Remove="Background-Images\Football-Ground-Cropped.jpg" />
     <None Remove="Background-Images\Football-Ground.jpg" />
@@ -25,11 +27,22 @@
     <None Remove="Background-Images\FPL-Pitch-Subs.jpeg" />
     <None Remove="Background-Images\FPL-Pitch.jpeg" />
     <None Remove="Background-Images\FPL-Pitch.png" />
+    <None Remove="Background-Images\Hull.png" />
+    <None Remove="Background-Images\Leicester.png" />
     <None Remove="Background-Images\Liecester-City.png" />
     <None Remove="Background-Images\LiverPool.png" />
+    <None Remove="Background-Images\Man City.png" />
+    <None Remove="Background-Images\Man Utd.png" />
     <None Remove="Background-Images\Man-City.png" />
     <None Remove="Background-Images\Man-United.png" />
+    <None Remove="Background-Images\Middlesbrough.png" />
     <None Remove="Background-Images\Player.png" />
+    <None Remove="Background-Images\Southampton.png" />
+    <None Remove="Background-Images\Spurs.png" />
+    <None Remove="Background-Images\Stoke.png" />
+    <None Remove="Background-Images\Sunderland.png" />
+    <None Remove="Background-Images\Swansea.png" />
+    <None Remove="Background-Images\test.txt" />
     <None Remove="Background-Images\Totenham.png" />
     <None Remove="Background-Images\Untitled-1.png" />
     <None Remove="Background-Images\Untitled-11.png" />
@@ -40,7 +53,12 @@
     <None Remove="Background-Images\Untitled-3.png" />
     <None Remove="Background-Images\Untitled-8.png" />
     <None Remove="Background-Images\Watford.png" />
+    <None Remove="Background-Images\West Brom.png" />
+    <None Remove="Background-Images\West Ham.png" />
     <None Remove="Background-Images\Westham.png" />
+    <None Remove="PythonScripts\PreProcessing.py" />
+    <None Remove="PythonScripts\Script.py" />
+    <None Remove="PythonScripts\TeamBuilder.py" />
     <None Remove="Script.py" />
   </ItemGroup>
 
@@ -52,28 +70,32 @@
 
   <ItemGroup>
     <Resource Include="Background-Images\Arsenal.png" />
-    <Resource Include="Background-Images\Bournmouth.png" />
+    <Resource Include="Background-Images\Bournemouth.png" />
     <Resource Include="Background-Images\Burnley.png" />
     <Resource Include="Background-Images\chelsea.png" />
+    <Resource Include="Background-Images\Crystal Palace.png" />
     <Resource Include="Background-Images\Everton.png" />
     <Resource Include="Background-Images\FPL-Background.jpg" />
     <Resource Include="Background-Images\FPL-Pitch-Subs.jpeg" />
     <Resource Include="Background-Images\FPL-Pitch.png" />
-    <Resource Include="Background-Images\Liecester-City.png" />
+    <Resource Include="Background-Images\Hull.png" />
+    <Resource Include="Background-Images\Leicester.png" />
     <Resource Include="Background-Images\LiverPool.png" />
-    <Resource Include="Background-Images\Man-City.png" />
-    <Resource Include="Background-Images\Man-United.png" />
-    <Resource Include="Background-Images\Totenham.png" />
-    <Resource Include="Background-Images\Untitled-1.png" />
-    <Resource Include="Background-Images\Untitled-11.png" />
-    <Resource Include="Background-Images\Untitled-12.png" />
-    <Resource Include="Background-Images\Untitled-13.png" />
-    <Resource Include="Background-Images\Untitled-14.png" />
-    <Resource Include="Background-Images\Untitled-15.png" />
-    <Resource Include="Background-Images\Untitled-3.png" />
-    <Resource Include="Background-Images\Untitled-8.png" />
+    <Resource Include="Background-Images\Man City.png" />
+    <Resource Include="Background-Images\Man Utd.png" />
+    <Resource Include="Background-Images\Middlesbrough.png" />
+    <Resource Include="Background-Images\Southampton.png" />
+    <Resource Include="Background-Images\Spurs.png" />
+    <Resource Include="Background-Images\Stoke.png" />
+    <Resource Include="Background-Images\Sunderland.png" />
+    <Resource Include="Background-Images\Swansea.png" />
+    <Resource Include="Background-Images\test.txt" />
     <Resource Include="Background-Images\Watford.png" />
-    <Resource Include="Background-Images\Westham.png" />
+    <Resource Include="Background-Images\West Brom.png" />
+    <Resource Include="Background-Images\West Ham.png" />
+    <Resource Include="PythonScripts\PreProcessing.py" />
+    <Resource Include="PythonScripts\Script.py" />
+    <Resource Include="PythonScripts\TeamBuilder.py" />
   </ItemGroup>
 
 </Project>
